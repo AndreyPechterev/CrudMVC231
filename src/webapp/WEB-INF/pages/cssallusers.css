@@ -1,0 +1,29 @@
+table{
+    border: 1px solid #eee;
+    table-layout: fixed;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button1 {
+    width: 50%;
+}
+
+.button2 {
+    width: 50%;
+}
+
+tr {
+    align-content: center;
+}
