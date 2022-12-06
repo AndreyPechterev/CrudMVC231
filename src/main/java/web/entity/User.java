@@ -12,7 +12,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private int id;
+    private Long id;
 
     @NotEmpty(message = "Имя не может быть пустым")
     @Size(min = 3, max = 15, message = "Некорректный размер имени")
@@ -43,11 +43,11 @@ public class User {
         this.age = age;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
